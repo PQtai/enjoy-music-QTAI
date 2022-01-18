@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.582beb6f.css",
+    "main.js": "./static/js/main.9b63a4bb.js",
+    "static/js/787.c349dad9.chunk.js": "./static/js/787.c349dad9.chunk.js",
+    "static/media/HoaNoKhongMau1-HoaiLam-6281704.mp3": "./static/media/HoaNoKhongMau1-HoaiLam-6281704.cfe19d16621595922da0.mp3",
+    "static/media/SauTimThiepHong-LeQuyenQuangLe-2448476.mp3": "./static/media/SauTimThiepHong-LeQuyenQuangLe-2448476.f90badf74c9c5b470ba2.mp3",
+    "static/media/Chua-Bao-Gio-Trung-Quan-Idol.mp3": "./static/media/Chua-Bao-Gio-Trung-Quan-Idol.65b2e6b1449a6e788cf8.mp3",
+    "static/media/CoGaiLamHong.mp3": "./static/media/CoGaiLamHong.e5539dac23b1c232345b.mp3",
+    "index.html": "./index.html",
+    "main.582beb6f.css.map": "./static/css/main.582beb6f.css.map",
+    "main.9b63a4bb.js.map": "./static/js/main.9b63a4bb.js.map",
+    "787.c349dad9.chunk.js.map": "./static/js/787.c349dad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.582beb6f.css",
+    "static/js/main.9b63a4bb.js"
+  ]
+}
