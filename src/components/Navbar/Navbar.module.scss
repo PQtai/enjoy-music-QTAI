@@ -1,0 +1,65 @@
+.navbar{
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding-left: 10px;
+    .list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin: 0;
+        list-style: none;
+        font-size: 20px;
+        color :rgb(80, 78, 78);
+        .listItem{
+            display: flex;
+            margin-right: 20px;
+            margin-top: 10px;
+            .listItemSearch{
+                display: flex;
+                border: 1px solid rgb(214, 209, 209);
+                border-radius: 20px;
+                width: 100%;
+                background-color: #fff;
+                .navIcon{
+                    margin: 6px;
+                    transform: translateY(1px);
+                    background-color: #fff;
+                }
+                .listItemInput{
+                    border: none;
+                    border-radius: 20px;
+                    outline: none;
+                    font-size: 14px;
+                    color: #333;
+                    width: 100%;
+                }
+            }
+            .navIcon{
+                color: rgb(150, 148, 148);
+                font-size: 16px;
+                margin: 10px;
+            }
+            .listItem_Custom{
+                cursor: pointer;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                &:hover{
+                    background-color: rgb(245, 240, 240);
+                }
+            }
+            .navbtn{
+                border-radius: 20px;
+                cursor: pointer;
+                padding: 0 16px;
+                background-image: linear-gradient(#FFA400,#FF00E6);
+                color: #fff;
+                border: none;
+            }
+        }
+        .listItem_Search{
+            width: 400px;
+        }
+    }
+}

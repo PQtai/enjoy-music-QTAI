@@ -1,0 +1,64 @@
+.PlayMusic{
+    padding-right: 10px;
+    .NowMusic{
+        .NowPlaying{
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+            font-weight: 500;
+            color: #333;
+        }
+        .quantilyItem{
+            display: block;
+            font-size: 10px;
+            color: var(--btn-color);
+            margin-bottom: 10px;
+        }
+    }
+    .SongPlayer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        width: 100%;
+        height: 238px;
+        background-color: rgba(255, 255, 255,0.4);
+        .NowSong{
+            width: 60%;
+            height: 80%;
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: #fff;
+            .cd{
+                display: flex;
+                margin: auto;
+                width: 40%;
+                margin-top: 10px;
+                .cdThum{
+                    width: 100%;
+                    padding-top: 100%;
+                    border-radius: 50%;
+                    background-color: #333;
+                    background-size: cover;
+                    background-position: center bottom;
+                    margin: auto;
+                    background-repeat: no-repeat;
+                }
+            }
+            .infoMusic{
+                text-align: center;
+                line-height: 14px;
+                .nameMusic{
+                    margin: 6px 0 0 0;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+                .nameSinger{
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+}

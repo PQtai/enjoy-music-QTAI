@@ -1,0 +1,53 @@
+.category {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 100%;
+    .userLogin {
+        text-align: center;
+        margin-top: 10px;
+        .btnLogin {
+            border: none;
+            color: #fff;
+            padding: 2px 20%;
+            border-radius: 10px;
+            cursor: pointer;
+            background-image: linear-gradient(#0AE8F8,#172BE8);
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    .CategoryList{
+        height: 150px;
+        .CategoryMyMusic {
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0 0 10px 20px;
+            color: var(--btn-color);
+        }
+        .List{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            .ListItem{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                .ItemIcon{
+                    margin-left: 20px;
+                    color: var(--btn-color);
+                }
+                .ListItemTitle{
+                    display: block;
+                    font-weight: 500;
+                    color: #444;
+                    padding-left: 10px;
+                }
+            }
+            .active .ItemIcon,
+            .active .ListItemTitle {
+                color: #0AE8F8;
+            }
+        }
+    }
+}

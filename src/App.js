@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import {useStore} from './store'
+import { memo } from 'react';
 
+
+import Header from './components/Header/header'
+import Main from './components/Main/main'
+import Category from './components/Category/category'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="grid wide">
+        <div className="wrapContent">
+          <div className="row sm-gutter">
+              <div className="col m-2">
+                <Category/>
+              </div>
+              <div className="col m-10">
+                <Header/>
+                <Main/>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default memo(App);

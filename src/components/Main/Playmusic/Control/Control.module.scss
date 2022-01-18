@@ -1,0 +1,36 @@
+.control{
+    display: flex;
+    justify-content: space-around;
+    color: var(--btn-color);
+    width: 60%;
+    height: 20%;
+    .btn{
+        line-height: 100%;
+        display: inline-flex;
+        align-items: center;
+        margin: 6px auto;
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+    .loopSong,
+    .randomSong {
+        color: #FF00E6;
+    }
+    .btnPrev{
+
+    }
+    .btnToggle{
+        border-radius: 50%;
+        background-color: #fff;
+        color: #FF00E6;
+        .iconPause{
+            transform: translateX(2px);
+        }
+        .iconPlay{
+            transform: translateX(2px);
+        }
+    }
+    .btnNext{
+
+    }
+}
