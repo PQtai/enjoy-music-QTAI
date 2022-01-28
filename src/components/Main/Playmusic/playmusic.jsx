@@ -21,7 +21,7 @@ function PlayMusic() {
         clearInterval(timerId.current);
         timerId.current = setInterval(() => {
            if(audioElement.current.ended){
-                isRandomSong?dispatch(action.setIndexSong(handleRandomSong())):handleNextSong();
+                isRandomSong.current?dispatch(action.setIndexSong(handleRandomSong())):handleNextSong();
            }else {
                 dispatch(action.setSongProgress(audioElement.current.currentTime));
            }

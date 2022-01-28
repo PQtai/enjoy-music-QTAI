@@ -4,11 +4,8 @@ import clsx from 'clsx';
 import style from './Navbar.module.scss';
 import Navslide from './Navslide/navslide'
 import {
-FaHome,
 FaSearch,
-FaMusic,
 FaBell,
-FaUser,
 FaCog
 } 
 from 'react-icons/fa'
